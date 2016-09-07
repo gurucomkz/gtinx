@@ -1,0 +1,3 @@
+<?
+$APP->IncludeComponentTemplate("flat");
+?>

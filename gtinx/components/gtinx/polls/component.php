@@ -1,0 +1,23 @@
+<?
+if($_POST)
+{
+	$r=GTpollfills::Ready($_POST);
+	unset($_POST);
+	if($r==TRUE)
+	{
+	$arResult['SUCCESS']=1;
+	}
+	
+}
+if($_GET['ID'])
+{
+	$ID=$_GET['ID'];
+	$arResult['POLL_ID']=$_GET['ID'];
+	$arResult['INPUTS']=GTpollsstms::Get('',Array('POLL_ID'=>$ID,'ACTIVE'=>1),'SORT');
+}
+else
+{
+	$arResult['POLLS']=GTpolls::Get();	
+}
+$APP->IncludeComponentTemplate($comTemplate);
+?>

@@ -1,0 +1,30 @@
+.pollX{
+padding: 20px;
+}
+.pollX td{
+padding-bottom: 7px;
+}
+.pollX h2{
+font-size: 16px;
+font-weight: normal;
+color:#034a80;
+margin-bottom: 15px;
+}
+.pollX h3{font-size: 12px;}
+.pollX .vname{padding-bottom: 7px; clear:both;}
+.pollX .vpercent{color:gray; font-size:10px;  display: inline-block; height: 17px;margin-bottom: 5px; float: left;}
+.pollX .vgauge{margin-bottom: 5px; margin-top:2px; border:0; height: 8px; display: inline-block; margin-right: 7px; float: left;background-color: Gray;}
+.pollX .vgauge.key0{background-color: #FF0000;}
+.pollX .vgauge.key1{background-color: #00FF00;}
+.pollX .vgauge.key2{background-color: #0000FF;}
+.pollX .vgauge.key3{background-color: #FFFF00;}
+.pollX .vgauge.key4{background-color: #00FFFF;}
+.pollX .vgauge.key5{background-color: #FF00FF;}
+
+.pollX .poll_submit{
+	border: 0px;
+	color: White;
+	background-color: #4f9c10;
+	margin-left: 30px;
+	padding: 3px 10px 3px 10px;
+}

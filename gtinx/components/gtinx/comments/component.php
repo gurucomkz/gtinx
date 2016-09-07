@@ -1,0 +1,2 @@
+<?$APP->IncludeComponent("gtinx:comments:gtinx:comments.add",".default", Array('ACTION_URL'=>$arVariables['ACTION_URL'], 'SUBSYSTEM'=>$arVariables['COMMENTS_SUBSYSTEM'], 'ELEMENT_ID'=>$arVariables['COMMENTS_ELEMENT_ID']));?>
+<?$APP->IncludeComponent("gtinx:comments:gtinx:comments.list",".default", Array('SUBSYSTEM'=>$arVariables['COMMENTS_SUBSYSTEM'], 'ELEMENT_ID'=>$arVariables['COMMENTS_ELEMENT_ID'], 'LIMIT'=>$arVariables['COMMENTS_LIMIT']));?>
