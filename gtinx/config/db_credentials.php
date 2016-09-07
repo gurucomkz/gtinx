@@ -1,0 +1,1 @@
+<?phpif(!defined('USE_DB'))//double-import support{define('USE_DB', 'mysql'); # currently supported$DB_CREDENTIALS = Array(    'host' => 'localhost',    'name' => '',    'user' => '',    'pass' => '',    'pconnect' => false    );}?>

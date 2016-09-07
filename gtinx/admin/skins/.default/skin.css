@@ -1,0 +1,240 @@
+html, body{
+margin:0;
+padding:0;
+border:0px;
+font-family: Arial;
+font-size: 12px;
+xoverflow:hidden;
+}
+
+form{
+padding: 0;
+margin: 0;
+}
+img{border:0;}
+#admcat{
+border-width: 0px 2px 2px 0px;
+border-color: Gray;
+border-style: solid;
+}
+
+#modulename{
+	font-size: 20px;
+}
+
+#mainadmtbl{
+border:0px;
+width:100%;
+height:100%;
+}
+#admdata{
+	padding: 0px 15px 25px 15px;
+}
+
+table.adm_list{
+	border-collapse:collapse;
+	width:100%;
+}
+
+.adm_list th{
+background: #F1F3FA;
+border: 1px #BDC6E0 solid;
+}
+
+.adm_list td{
+background: #FFF;
+border: 1px #BDC6E0 solid;
+}
+
+.multiaction .content{
+border-collapse:collapse;
+}
+
+.multiaction .content th{
+background: #F1F3FA;
+border: 1px #BDC6E0 solid;
+}
+
+.multiaction .content td{
+padding:3px;
+background: #FFF;
+border: 1px #BDC6E0 solid;
+}
+
+.gtbottomline td{
+	height: 40px;
+	background: #efefef;
+}
+
+#breadcumbs {
+	background: #F1F3FA;
+	border: 1px #BDC6E0 solid;
+	margin-bottom: 30px;
+	padding: 5px 20px 5px 20px;
+}
+
+#filter{
+	background: #F1F3FA;
+	border: 1px #BDC6E0 solid;
+	padding: 5px;
+	display: inline-block;
+	margin-bottom: 25px;
+}
+
+#filter table th{
+	font-weight: bold;
+	padding: 5px 10px 5px 10px;
+}
+#filter p{
+	margin-top: 0px;
+	padding-top: 0px;
+	display: block;
+	border-bottom: 1px Silver solid;
+}
+
+#settings{
+	background: #F1F3FA;
+	border: 1px #BDC6E0 solid;
+	margin-bottom: 10px;
+	padding: 3px 3px 5px 3px;
+}
+.nocontentmsg{
+	text-align: center;
+	font-weight: bold;
+	line-height: 20px;
+	font-size: 14px;
+}
+
+.modopt{
+	line-height: 18px;
+	background-repeat: no-repeat;
+}
+.modoptchildgrp{
+	display: none;
+}
+.modoptchildgrp.visible{
+
+display: block;
+}
+.gtitemcheckbox{
+	width: 20px;
+	text-align: center !important;
+}
+table.gtitemedit{
+	border-collapse:collapse;
+	width:100%;
+}
+
+table.gtitemedit td
+{
+	padding: 5px;
+	text-align: left;
+}
+ table.gtitemedit th{
+	padding: 5px;
+	text-align: right;
+
+ }
+
+ .adm_tabs{
+	background: #F1F3FA;
+	border: 1px #BDC6E0 solid;
+}
+
+#menucontainer{
+height: 100%;
+overflow: auto;
+}
+
+
+#admcat a{
+display: inline-block;
+margin-left: 5px;
+margin-right: 5px;
+border-color: transparent;
+border-width: 1px;
+border-style: solid;
+padding: 4px;
+cursor: pointer;
+}
+
+#admcat a:hover{
+border-color: silver;
+}
+/*tree view*/
+#ex1 {
+    float:left;
+    width:200px;
+}
+#ex2 {
+    float:left;
+    width:130px;
+    padding-left:5px;
+    margin-left:5px;
+}
+/* ------------ treeview ---------- */
+.treeview, .treeview ul { 
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-size:14px;
+}
+
+.treeview ul {
+	background-color: #fff;
+	margin-top: 4px;
+}
+
+.treeview .hitarea {
+	background: url(/gtinx/admin/skins/.default/images/treeview-default.gif) -64px -25px no-repeat;
+	height: 16px;
+	width: 16px;
+	margin-left: -16px;
+	float: left;
+	cursor: pointer;
+}
+ 
+.treeview li { 
+	margin: 0;
+	padding: 3px 0pt 3px 16px;
+}
+
+.treeview a.selected {
+	background-color: #eee;
+}
+
+#treecontrol { margin: 1em 0; display: none; }
+
+.treeview .hover { color: red; cursor: pointer; }
+
+.treeview li { background: url(/gtinx/admin/skins/.default/images/treeview-default-line.gif) 0 0 no-repeat; }
+.treeview li.collapsable, .treeview li.expandable { background-position: 0 -176px; }
+
+.treeview .expandable-hitarea { background-position: -80px -3px; }
+
+.treeview li.last { background-position: 0 -1766px }
+.treeview li.lastCollapsable, .treeview li.lastExpandable { background-image: url(/gtinx/admin/skins/.default/images/treeview-default.gif); }  
+.treeview li.lastCollapsable { background-position: 0 -111px }
+.treeview li.lastExpandable { background-position: -32px -67px }
+
+.treeview div.lastCollapsable-hitarea, .treeview div.lastExpandable-hitarea { background-position: 0; }
+
+.treeview-red li { background-image: url(/gtinx/admin/skins/.default/images/treeview-red-line.gif); }
+.treeview-red .hitarea, .treeview-red li.lastCollapsable, .treeview-red li.lastExpandable { background-image: url(/gtinx/admin/skins/.default/images/treeview-red.gif); } 
+
+.treeview-black li { background-image: url(/gtinx/admin/skins/.default/images/treeview-black-line.gif); }
+.treeview-black .hitarea, .treeview-black li.lastCollapsable, .treeview-black li.lastExpandable { background-image: url(/gtinx/admin/skins/.default/images/treeview-black.gif); }  
+
+.treeview-gray li { background-image: url(/gtinx/admin/skins/.default/images/treeview-gray-line.gif); }
+.treeview-gray .hitarea, .treeview-gray li.lastCollapsable, .treeview-gray li.lastExpandable { background-image: url(/gtinx/admin/skins/.default/images/treeview-gray.gif); } 
+
+.treeview-famfamfam li { background-image: url(/gtinx/admin/skins/.default/images/treeview-famfamfam-line.gif); }
+.treeview-famfamfam .hitarea, .treeview-famfamfam li.lastCollapsable, .treeview-famfamfam li.lastExpandable { background-image: url(/gtinx/admin/skins/.default/images/treeview-famfamfam.gif); } 
+
+
+.filetree li { padding: 3px 0 2px 16px; }
+.filetree span.folder, .filetree span.file { padding: 1px 0 1px 20px; display: block; }
+.filetree span.folder { background: url(/gtinx/admin/skins/.default/images/rpgicon.gif) 0 0 no-repeat; }
+.filetree li.expandable span.folder { background: url(/gtinx/admin/skins/.default/images/rpgicon.gif) 0 0 no-repeat; }
+.filetree span.file { background: url(/gtinx/admin/skins/.default/images/itemicon.gif) 0 0 no-repeat; }
+/* ------------ treeview ---------- */

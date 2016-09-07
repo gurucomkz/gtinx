@@ -1,0 +1,14 @@
+.gteditorview  {
+overflow:scroll;
+}
+.gteditorview * {
+width: auto;
+display: auto;
+position: auto;
+
+}
+
+.gteditorhtml  {
+overflow:auto;
+font-family: Courier;
+}
